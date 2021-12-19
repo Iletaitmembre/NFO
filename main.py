@@ -4,6 +4,8 @@ from PyQt5.QtGui import QPainter
 from random import randint
 
 
+# СДЕЛАНО БЕЗ .UI
+
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
