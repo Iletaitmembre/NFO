@@ -12,7 +12,7 @@ def get_spn(toponym):
     u, a = map(float, frame['upperCorner'].split())
     x = abs(u - l) / 4
     y = abs(a - b) / 4
-    return f'{x}{y}'
+    return f'{x},{y}'
 
 
 # Пусть наше приложение предполагает запуск:
